@@ -132,7 +132,13 @@
   .header {
     flex-direction: column;
   }
-
+  .navbar a {
+    float: right;
+    width: 100%;
+  }
+  .col-3 {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 400px) {
   .navbar a {
